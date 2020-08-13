@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <canvas id='c' width="500" height="500">Broswer does not support canvas</canvas>
+    <img id="i" width= "400" height ="500"  src="https://i.imgflip.com/30b1gx.jpg" alt='error' />
+    <script src="fabric.js" ></script> 
+    <script>
+      
+      var canvas = new fabric.Canvas('c');
+
+      var imge = document.getElementById('i');
+
+      var jai = new fabric.Text('hello',{
+          left: 10,
+          top: 10,
+          height: 100,
+          width: 200
+      });
+
+      var meme = new fabric.Image(imge,{
+        left: 10,  
+        top: 10,
+          
+      });
+
+      meme.scaleToWidth(400);
+      meme.scaleToHeight(500);
+      
+     // imge.style.zIndex="1";
+
+      canvas.add(jai,meme);
+
+
+    
+    </script>
+
+</body>
+</html>

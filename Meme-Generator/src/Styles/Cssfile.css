@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Head
+{
+    background-color: #6495ED;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+
+ }
+
+ .Meme-form
+ {
+    display: flex;
+    
+ }
+
+ .input
+ {
+     margin-left: 10px;
+ }
+
+ 
+ 
+ .random{
+     background-color: blueviolet;
+     color: white;
+     margin-top: 15px;
+     height: 64px;
+     width: 180px;
+     border-radius: 30px;
+ }
+
+#c {
+    width: 500px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.textdisplay{
+    height: 100px;
+    width: 100px;
+}
+
+.input{
+    height: 60px;
+    width: 280px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.fun{
+    margin-top: -100px;
+    margin-left: 80px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.textboy{
+    height: 64px;
+    width: 120px;
+    margin-top: 15px;
+    margin-right: 70px;
+    background-color: blueviolet;
+    color: white;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 100px;
+   
+    
+}
+
+.txt 
+{
+    color: red;
+    font-size: 40px;
+    padding-top: -90px;
+}
